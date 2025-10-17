@@ -84,6 +84,6 @@ Curso: *Bases de Datos*
 Año: 2025  
 
 <p align="right">
-  <img src="https://media.tenor.com/WKPXrrxUvEgAAAAj/frieren-kuru-kuru.gif" width="40">
+  <img src="https://i.pinimg.com/736x/38/2b/d3/382bd3b22ca9246dfb5802a3e13df87c.jpg" width="40">
 </p>
 
