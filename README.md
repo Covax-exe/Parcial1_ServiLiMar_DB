@@ -77,17 +77,13 @@ LEFT JOIN Notificacion n ON n.usuario_id = u.usuario_id;
 
 ---
 
-## 📸 Evidencias
-
-- Contenedores **postgres_servilimar** y **pgadmin_servilimar** activos en Docker Desktop.  
-- Tablas creadas y visibles desde pgAdmin.  
-- Inserciones correctas verificadas con `View/Edit Data → All Rows`.  
-- Vista `vista_turnos_completos` mostrando datos unificados.
-
----
-
 ## 👨‍💻 Autora
 **Lina Vanessa Cosme Arce**  
 Universidad del Valle  
 Curso: *Bases de Datos*  
 Año: 2025  
+
+<p align="right">
+  <img src="https://upload.wikimedia.org/wikipedia/en/9/9a/Trollface_non-free.png" width="40">
+</p>
+
