@@ -84,6 +84,6 @@ Curso: *Bases de Datos*
 Año: 2025  
 
 <p align="right">
-  <img src="https://upload.wikimedia.org/wikipedia/en/9/9a/Trollface_non-free.png" width="40">
+  <img src="https://media.tenor.com/WKPXrrxUvEgAAAAj/frieren-kuru-kuru.gif" width="40">
 </p>
 
