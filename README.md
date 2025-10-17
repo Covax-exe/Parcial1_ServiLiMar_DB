@@ -84,6 +84,6 @@ Curso: *Bases de Datos*
 Año: 2025  
 
 <p align="right">
-  <img src="https://i.pinimg.com/736x/29/34/09/293409d644c47213808c4ab42be9d6ae.jpg" width="40">
+  <img src="https://media.tenor.com/RYGLfSXNIRIAAAAi/frieren.gif" width="40">
 </p>
 
