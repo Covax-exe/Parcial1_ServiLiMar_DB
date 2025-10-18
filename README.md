@@ -77,7 +77,7 @@ LEFT JOIN Notificacion n ON n.usuario_id = u.usuario_id;
 
 ---
 
-## 👨‍💻 Autora
+## 👩‍💻 Autora
 **Lina Vanessa Cosme Arce**  
 Universidad del Valle  
 Curso: *Bases de Datos*  
