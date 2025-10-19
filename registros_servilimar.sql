@@ -28,7 +28,7 @@ INSERT INTO Usuario (nombre, apellido, tipo_usuario, condicion_especial, ciudad_
 ('Laura','Pérez','Cliente','Embarazo', 1, '3001112233', 'laura.perez@email.com', '3001112233'),
 ('Carlos','Gómez','Cliente','Adulto mayor', 2, '3004445566', 'carlos.gomez@email.com', '3004445566'),
 ('Andrea','López','Empleado', NULL, 3, '3111234560', 'andrea.lopez@servilimar.com', '3111234560'),
-('Luis','Martínez','Proveedor','Ninguna', 4, '3007778899', 'luis.martinez@proveedor.net', '3007778899'),
+('Luis','Martínez','Proveedor', NULL, 4, '3007778899', 'luis.martinez@proveedor.net', '3007778899'),
 ('Sofía','Ríos','Cliente','Silla de ruedas', 5, '3121112233', 'sofia.rios@email.com', '3121112233'),
 ('Mateo','Torres','Empleado', NULL, 6, '3130001122', 'mateo.torres@servilimar.com', '3130001122'),
 ('Camila','García','Cliente', NULL, 7, '3145556677', 'camila.garcia@email.com', '3145556677'),
@@ -65,4 +65,5 @@ INSERT INTO Notificacion (usuario_id, tipo_notificacion_id, mensaje, fecha_envio
 (8, 2,'Turno de pagos confirmado', '2025-10-21 12:05:00', 'Enviado'),
 (9, 3,'Turno de capacitación listo', '2025-10-21 18:00:00', 'Enviado'),
 (10, 2,'Turno de visitas técnicas programado', '2025-10-21 17:30:00','Enviado');
+
 
