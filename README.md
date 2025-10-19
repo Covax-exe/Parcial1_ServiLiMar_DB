@@ -63,7 +63,7 @@ SELECT
   u.nombre AS nombre_usuario,
   u.apellido AS apellido_usuario,
   u.tipo_usuario,
-  u.condicion_especial, -- Condición especial del usuario
+  u.condicion_especial,
   s.nombre_servicio AS nombre_servicio,
   e.cargo AS cargo_empleado,
   e.departamento AS departamento_empleado,
