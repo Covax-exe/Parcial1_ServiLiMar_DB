@@ -4,6 +4,18 @@ CREATE TABLE Ciudad (
   codigo_postal VARCHAR(10)
 );
 
+CREATE TABLE TipoNotificacion (
+    tipo_notificacion_id SERIAL PRIMARY KEY,
+    nombre_tipo_notificacion VARCHAR(50) UNIQUE NOT NULL 
+);
+
+CREATE TABLE Servicio (
+  servicio_id SERIAL PRIMARY KEY,
+  nombre_servicio VARCHAR(100) NOT NULL,
+  descripcion TEXT,
+  estado VARCHAR(20)
+);
+
 CREATE TABLE Usuario (
   usuario_id SERIAL PRIMARY KEY,
   nombre VARCHAR(50) NOT NULL,
@@ -15,13 +27,6 @@ CREATE TABLE Usuario (
   email VARCHAR(100),
   sms VARCHAR(20),
   FOREIGN KEY (ciudad_id) REFERENCES Ciudad(ciudad_id)
-);
-
-CREATE TABLE Servicio (
-  servicio_id SERIAL PRIMARY KEY,
-  nombre_servicio VARCHAR(100) NOT NULL,
-  descripcion TEXT,
-  estado VARCHAR(20)
 );
 
 CREATE TABLE Empleado (
@@ -46,11 +51,6 @@ CREATE TABLE Turno (
   FOREIGN KEY (empleado_id) REFERENCES Empleado(empleado_id)
 );
 
-CREATE TABLE TipoNotificacion (
-    tipo_notificacion_id SERIAL PRIMARY KEY,
-    nombre_tipo_notificacion VARCHAR(50) UNIQUE NOT NULL 
-);
-
 CREATE TABLE Notificacion (
   notificacion_id SERIAL PRIMARY KEY,
   usuario_id INT NOT NULL,
@@ -61,4 +61,3 @@ CREATE TABLE Notificacion (
   FOREIGN KEY (usuario_id) REFERENCES Usuario(usuario_id),
   FOREIGN KEY (tipo_notificacion_id) REFERENCES TipoNotificacion(tipo_notificacion_id)
 );
-
