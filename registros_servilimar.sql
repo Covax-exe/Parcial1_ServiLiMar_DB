@@ -58,10 +58,11 @@ INSERT INTO Notificacion (usuario_id, tipo_notificacion_id, mensaje, fecha_envio
 (1, 2,'Turno confirmado para atención al cliente', '2025-10-17 17:00:00', 'Enviado'),
 (2, 3,'Su turno para entrega de artículos ha sido asignado', '2025-10-17 19:30:00', 'Enviado'),
 (3, 2,'Turno de recepción confirmado', '2025-10-18 10:00:00', 'Enviado'),
-(4, 1,'Turno de consultoría confirmado', '2025-10-18 09:00:00', 'Pendiente de Contacto'),
+(4, 1,'Turno de consultoría confirmado', '2025-10-18 09:00:00', 'Enviado'),
 (5, 2,'Turno de despacho activo', '2025-10-19 15:45:00', 'Enviado'),
 (6, 3,'Soporte técnico asignado', '2025-10-20 11:30:00', 'Enviado'),
 (7, 2,'Turno de reclamaciones confirmado', '2025-10-20 14:00:00', 'Enviado'),
 (8, 2,'Turno de pagos confirmado', '2025-10-21 12:05:00', 'Enviado'),
 (9, 3,'Turno de capacitación listo', '2025-10-21 18:00:00', 'Enviado'),
 (10, 2,'Turno de visitas técnicas programado', '2025-10-21 17:30:00','Enviado');
+
