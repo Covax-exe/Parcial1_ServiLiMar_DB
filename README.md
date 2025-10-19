@@ -35,7 +35,7 @@ y se registra el servidor `postgres_servilimar` con las credenciales configurada
 | Archivo                             | Tipo SQL                             | Contenido                                        |
 |-------------------------------------|--------------------------------------|--------------------------------------------------|
 | `estructura_servilimar.sql`         | **DDL (Data Definition Language)**   | Creación de tablas, claves primarias y foráneas  |
-| `registros_servilimar.sql`          | **DML (Data Manipulation Language)** | Inserción de 10 registros por tabla              |
+| `registros_servilimar.sql`          | **DML (Data Manipulation Language)** | Inserción de 10 registros en tablas              |
 
 ---
 
