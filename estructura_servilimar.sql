@@ -57,7 +57,8 @@ CREATE TABLE Notificacion (
   tipo_notificacion_id INT NOT NULL,
   mensaje TEXT,
   fecha_envio TIMESTAMP DEFAULT NOW(),
-  estado VARCHAR(20),
+  estado VARCHAR(50),
   FOREIGN KEY (usuario_id) REFERENCES Usuario(usuario_id),
   FOREIGN KEY (tipo_notificacion_id) REFERENCES TipoNotificacion(tipo_notificacion_id)
 );
+
