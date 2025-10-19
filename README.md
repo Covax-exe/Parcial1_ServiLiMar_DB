@@ -44,8 +44,9 @@ y se registra el servidor `postgres_servilimar` con las credenciales configurada
 2. **Usuario** – Personas registradas en el sistema.  
 3. **Servicio** – Tipos de servicios ofrecidos.  
 4. **Empleado** – Personal asociado a los servicios.  
-5. **Turno** – Programación de atención a usuarios.  
-6. **Notificación** – Mensajes automáticos enviados a usuarios.
+5. **Turno** – Programación de atención a usuarios.
+6. **TipoNotificacion** Define los canales de comunicación para los avisos automáticos.
+7. **Notificación** – Mensajes automáticos enviados a usuarios.
 
 Cada tabla contiene **10 registros** y mantiene la **integridad referencial** mediante llaves foráneas.
 
@@ -61,17 +62,24 @@ SELECT
   t.turno_id,
   u.nombre AS nombre_usuario,
   u.apellido AS apellido_usuario,
-  s.nombre AS servicio,
+  u.tipo_usuario,
+  u.condicion_especial, -- Condición especial del usuario
+  s.nombre_servicio AS nombre_servicio,
   e.cargo AS cargo_empleado,
+  e.departamento AS departamento_empleado,
   t.fecha,
   t.hora_inicio,
   t.hora_fin,
-  n.mensaje AS mensaje_notificacion
+  t.estado AS estado_turno,
+  n.mensaje AS mensaje_notificacion,
+  tn.nombre_tipo_notificacion AS tipo_notificacion
 FROM Turno t
 JOIN Usuario u ON t.usuario_id = u.usuario_id
 JOIN Servicio s ON t.servicio_id = s.servicio_id
 JOIN Empleado e ON t.empleado_id = e.empleado_id
-LEFT JOIN Notificacion n ON n.usuario_id = u.usuario_id;
+LEFT JOIN Notificacion n ON n.usuario_id = u.usuario_id
+LEFT JOIN TipoNotificacion tn ON n.tipo_notificacion_id = tn.tipo_notificacion_id
+ORDER BY t.turno_id;
 ```
 
 ---
