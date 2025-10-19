@@ -32,11 +32,11 @@ y se registra el servidor `postgres_servilimar` con las credenciales configurada
 
 ## 🧱 Estructura SQL
 
-| Archivo                      | Tipo SQL                             | Contenido                                               |
-|------------------------------|--------------------------------------|---------------------------------------------------------|
-| `ddl_servilimar.sql`         | **DDL (Data Definition Language)**   | Creación de tablas, claves primarias y foráneas         |
-| `dml_servilimar.sql`         | **DML (Data Manipulation Language)** | Inserción de 10 registros por tabla                     |
-| `vista_turnos_completos.sql` | **Consulta relacional (JOIN)**       | Vista que integra todas las tablas con datos combinados |
+| Archivo                             | Tipo SQL                             | Contenido                                        |
+|-------------------------------------|--------------------------------------|--------------------------------------------------|
+| `estructura_servilimar.sql`         | **DDL (Data Definition Language)**   | Creación de tablas, claves primarias y foráneas  |
+| `registros_servilimar.sql`          | **DML (Data Manipulation Language)** | Inserción de 10 registros por tabla              |
+| `vista_turnos_completos.sql`        | **Consulta relacional (JOIN)**       | Vista que integra todas las tablas con datos combinados |
 
 ---
 
